@@ -1,0 +1,56 @@
+.title {
+  font-size: 50px;
+  padding: 0%;
+}
+.subtitle {
+  font-size: 25px;
+  padding-top: 10px;
+}
+.myDiv {
+  text-align: center;
+  padding: 0;
+  text-decoration-color: aqua;
+}
+.intro-text {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 100px;
+  text-shadow: 20px;
+}
+.main {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  background-image: url("https://images.unsplash.com/photo-1579280921028-21d4e5005a77?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZGlhcnl8ZW58MHx8MHx8&w=1000&q=80");
+  background-position: center;
+  background-size: cover;
+}
+.buttonContainer {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.landingbutton {
+  width: 200px;
+  height: 55px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .buttonContainer {
+    padding: 0 200px;
+  }
+  .title {
+    padding: 0 100px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .title {
+    font-size: 60px;
+  }
+  .landingbutton {
+    width: 150px;
+    height: 50px;
+  }
+}
